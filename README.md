@@ -1,6 +1,6 @@
   # QR-CODE-SCANNER
 
-  # QR Code Scanner Module for Odoo
+  # QR Code Scanner Module for Odoo V15-V16 Community Version
 
 The QR Code Scanner module for Odoo allows users to scan QR codes containing predefined data formats and automatically create records in the `res.partner` model. If a record already exists for the scanned QR code, an error message will be displayed.
 
@@ -75,3 +75,5 @@ This Odoo module is released under the MIT License.
 
 Acknowledgments
 This module was developed by <a href="https://github.com/sajjad-yousuf-96">Muhammad Sajjad</a>.
+
+[![Video Preview](https://example.com/video_thumbnail.png)](https://youtu.be/QKubQ79sFhw)
