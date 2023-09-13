@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<odoo>
+    <record model="ir.ui.view" id="res_partner_view_inherit_qr">
+        <field name="name">partner.view.buttons</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='vat']" position="after">
+                <field name="nic_id"/>
+                <field name="province_name"/>
+                <field name="gender" widget="radio"/>
+                <field name="marital_status"/>
+            </xpath>
+
+            <xpath expr="//field[@name='category_id']" position="after">
+                <field name="exp_date"/>
+                <field name="issue_province"/>
+                <field name="issue_date"/>
+            </xpath>
+        </field>
+    </record>
+    <record id="action_partner_forms_inherit" model="ir.actions.act_window">
+        <field name="name">PARTNERS</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">res.partner</field>
+        <field name="view_mode">kanban,tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a Contact in your address book
+            </p><p>
+            Odoo helps you track all activities related to your contacts.
+        </p>
+        </field>
+    </record>
+    <menuitem id="res_partner_menuitem_inherit"
+              name="Partner"
+              action="action_partner_forms_inherit"
+              sequence="10"/>
+</odoo>
