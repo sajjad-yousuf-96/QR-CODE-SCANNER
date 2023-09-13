@@ -76,7 +76,6 @@ This Odoo module is released under the MIT License.
 Acknowledgments
 This module was developed by <a href="https://github.com/sajjad-yousuf-96">Muhammad Sajjad</a>.
 
-<br>
-<br>
-## Video Tutorial 
+
+Video Tutorial 
 [![Video Preview](https://github.com/sajjad-yousuf-96/QR-CODE-SCANNER/blob/main/black-and-white-model-youtube-thumbnail-1.png)](https://youtu.be/QKubQ79sFhw)
