@@ -27,7 +27,7 @@ To install and use this module, follow these steps:
 
 6. Install the module.
    
-<img src="">
+<img src="image.png">
 
 ## Usage
 Once the module is installed, you can use the QR Code Scanner functionality as follows:
